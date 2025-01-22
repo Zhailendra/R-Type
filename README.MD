@@ -51,3 +51,4 @@ r-type_client.exe
 - [SimonBandiera](https://github.com/SimonBandiera)
 - [YacineOurt](https://github.com/YacineOurt)
 - [Shailendra](https://github.com/Zhailendra)
+- [HForGames](https://github.com/HForGames)
