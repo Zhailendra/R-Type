@@ -44,3 +44,10 @@ r-type_client.exe
 
 ### How to contribute
 - [Contribution](doc/CONTRIBUTING.md)
+
+### Contributors
+
+- [Azyanah](https://github.com/Azyanah)
+- [SimonBandiera](https://github.com/SimonBandiera)
+- [YacineOurt](https://github.com/YacineOurt)
+- [Shailendra](https://github.com/Zhailendra)
