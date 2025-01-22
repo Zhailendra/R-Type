@@ -1,0 +1,13 @@
+Les lignes commencant par un '#' sont ignorées
+
+(Le choix de la syntax des maps n'est pas définitif je fais plusieurs tests)
+
+1 4.4 350 512
+
+Le premier chiffre est le numéro de l'enemie 
+Le deuxième chiffre est le temps où le monstre apparrait sur la map. Il faut que le temps soit en float avec 2 décimales
+Le troisième chiffre est la position en x de l'enemie
+Le quatrième chiffre est la position en x de l'enemie
+
+
+Si une ligne ne respecte pas cette syntax et qu'il y a une erreur, la ligne n'est pas prise en compte

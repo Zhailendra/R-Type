@@ -1,0 +1,17 @@
+# How works exchange between client and server
+
+## Description
+This readme will explain how works the exchange between the client and the server.
+
+## Design of the exchange
+That's represent a basic representation of basic start connection
+
+[![](https://mermaid.ink/img/pako:eNqVksFqwzAMhl_F6Lr0BXwolHbstGyQ28hFxGpn4kiZo6yE0nevVzdQOlg7n4z16ef_ZR2gEUdgYaCvkbihjcddxK5mk846eGJdLJdPFcVvitaUpHuJrbXvnncZyqUELTJ-DckMlaJkJHEXzWIWXBmdet9gmLtMpRjVrIWZGvXCd628oH5SXIXwzOrV03Djy_zyVdL-zE53E9yQD8TIbtJ0jGzNde8fCR7389b-Y54X0aTHDgroKHboXfrsw49IDcloRzXYdHUY2xpqPiYOR5Vq4gasxpEKGHuHOi8G2C2GIb2S8yrxNW_PeYkK6JE_RGbmeALjH87p?type=jpg)](https://mermaid.ink/img/pako:eNqVksFqwzAMhl_F6Lr0BXwolHbstGyQ28hFxGpn4kiZo6yE0nevVzdQOlg7n4z16ef_ZR2gEUdgYaCvkbihjcddxK5mk846eGJdLJdPFcVvitaUpHuJrbXvnncZyqUELTJ-DckMlaJkJHEXzWIWXBmdet9gmLtMpRjVrIWZGvXCd628oH5SXIXwzOrV03Djy_zyVdL-zE53E9yQD8TIbtJ0jGzNde8fCR7389b-Y54X0aTHDgroKHboXfrsw49IDcloRzXYdHUY2xpqPiYOR5Vq4gasxpEKGHuHOi8G2C2GIb2S8yrxNW_PeYkK6JE_RGbmeALjH87p?type=jpg)
+
+## How works interpolation of position
+That's represent a basic interpolation of position between two client
+[![](https://mermaid.ink/img/pako:eNqVUsFOwzAM_RUrVzrBOEYwCQ3EiYG0cUG9eK23RW3jkrqbpmn_jtt0CA7AyOkpfs9-tt7BZJyTsaah95Z8RvcO1wGr1IO-aenIy3g0mVzMKWwpWJiR7DgU1s5o9-DFyT5SY12ZUXN9BnM0tP9CfS4iZ8ZCENx6I8Ar-Gw5Fw7Or2GxIYgt4YUbJ449oMACbuHqb-evdY5CZ5r_hfx__48oG-o3-Mk9oM87NL5ZhsvJFMusLVE6hSphS5leAJY6jsh_V0CU3NV1ifsocM1JIayo5KybqbjiLfUNadjLJKaiUKHLNQqHbofUaL2i1FiFOYYiNak_Kg9b4fneZ8ZKaCkxbX-gITbGrrBs9Jdyp3OfYrb6iCWmRv_GfOIcPwBuzdZ5?type=jpg)](https://mermaid.ink/img/pako:eNqVUsFOwzAM_RUrVzrBOEYwCQ3EiYG0cUG9eK23RW3jkrqbpmn_jtt0CA7AyOkpfs9-tt7BZJyTsaah95Z8RvcO1wGr1IO-aenIy3g0mVzMKWwpWJiR7DgU1s5o9-DFyT5SY12ZUXN9BnM0tP9CfS4iZ8ZCENx6I8Ar-Gw5Fw7Or2GxIYgt4YUbJ449oMACbuHqb-evdY5CZ5r_hfx__48oG-o3-Mk9oM87NL5ZhsvJFMusLVE6hSphS5leAJY6jsh_V0CU3NV1ifsocM1JIayo5KybqbjiLfUNadjLJKaiUKHLNQqHbofUaL2i1FiFOYYiNak_Kg9b4fneZ8ZKaCkxbX-gITbGrrBs9Jdyp3OfYrb6iCWmRv_GfOIcPwBuzdZ5?type=jpg)
+
+So we can see that the client2 see the entity of client1 at T-1.
+The client2 will interpolate the position of the entity of client1 between T-1 and T.
+`T-1 - T = Ping` equal to ping between client1 and client2.
